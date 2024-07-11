@@ -5,7 +5,7 @@
 import Testing
 @testable import Either
 
-@Suite("Hash")
+@Suite("Either+Hashable")
 struct EitherHashableTests {
     @Test func sameLeftValuesHaveSameHashValues() async throws {
         let left: Either<String, Int> = .left("hello")
