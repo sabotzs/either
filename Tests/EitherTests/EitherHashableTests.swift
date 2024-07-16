@@ -1,6 +1,9 @@
 //
 // EitherHashableTests.swift
-// Georgi Kuklev on 11.07.2024
+// EitherTests
+//
+// Created by sabotzs on 16.07.2024
+//
 
 import Testing
 @testable import Either
