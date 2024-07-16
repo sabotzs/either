@@ -1,6 +1,9 @@
 //
 // Either+Equatable.swift
-// Georgi Kuklev on 11.07.2024
+// Either
+//
+// Created by sabotzs on 11.07.2024
+//
 
 extension Either: Equatable where Left: Equatable, Right: Equatable {
     public static func == (_ lhs: Self, _ rhs: Self) -> Bool {

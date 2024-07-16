@@ -1,6 +1,9 @@
 //
 // Either+Comparable.swift
-// Georgi Kuklev on 11.07.2024
+// Either
+//
+// Created by sabotzs on 11.07.2024
+//
 
 extension Either: Comparable where Left: Comparable, Right: Comparable {
     public static func < (_ lhs: Self, _ rhs: Self) -> Bool {
